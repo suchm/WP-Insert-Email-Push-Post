@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Email Template Title</title>
+    <style type="text/css">
+        
+    html {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        background:#343a40;
+    }
+
+    body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        background-color: #eeeeee;
+        font-family: Verdana, Arial, sans-serif;
+        margin:0 auto;
+        background:#343a40;
+    }
+
+    table {
+        border-collapse: collapse;
+        mso-table-lspace: 0;
+        mso-table-rspace: 0;
+        margin:0 auto;
+        font-family: Verdana, Arial, sans-serif;
+    }
+        
+    table td    {
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    ul {
+        margin-top: 0;
+        padding-top: 15px;
+    }
+  
+    hr  {
+        color:#cccccc;
+        height:1px;
+        width:100%;
+        background:#cccccc;
+        box-shadow: none;
+        border:none;
+    }
+        
+    a   {
+        color:#ffffff;
+        text-decoration:underline;
+    }
+        
+    .blueLinks a    {
+        color:blue;    
+    }
+        
+    .postLink   {
+        font-family: Verdana, Arial, sans-serif; 
+        display: block;
+        text-align: center;
+        background: #343a40;
+        font-weight: 600;
+        padding: 8px 0;
+        border-radius: 4px;
+        font-size: 14px;
+        line-height: 14px;
+        width:100%;
+    }
+    .postLink a {
+        color:#ffffff;
+        text-decoration: none;
+    }
+        
+    img {
+        max-width:100%;
+        max-width:100% !important;
+        border: none;
+    }
+        
+    h1, h2, h3  {
+        font-family: Verdana, Arial, sans-serif;
+        font-weight:700;
+        color:#000000;
+        letter-spacing: -1px;
+    }
+        
+    h1  {font-size:28px; line-height: 32px; margin:0; }
+    h2  {font-size:24px; line-height: 28px; margin:0 0 15px 0; }
+    h3  {font-size:22px; line-height: 26px; margin:0 0 15px 0; }
+        
+    .responsiveImg  {
+        max-width: 100%;    
+    }
+        
+    .author {
+        color:#268dd4;
+        text-transform:uppercase;  
+        font-weight: 600;
+        font-size: 13px;
+        line-height:34px;
+    }
+
+.broughtPUB {
+        color:#000000; 
+        text-transform:uppercase;
+        font-weight: 600;
+        font-size: 14px;
+    }
+.brought {
+        color:#000000; 
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .date   {
+        color:#000;
+        font-size: 13px;
+        font-weight: 600;
+        line-height:28px; 
+    }
+        
+       .mobOnly    {
+        display: none;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        max-height: 0px;
+        line-height: 0; 
+        mso-hide: all; 
+        font-size: 0px;
+    }
+
+    .mobOnlyCenter    {
+        display: none;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        max-height: 0px;
+        line-height: 0; 
+        mso-hide: all; 
+        font-size: 0px;
+    }
+
+    .mobOnlyCenterBlock    {
+        display: none;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        max-height: 0px;
+        line-height: 0; 
+        mso-hide: all; 
+        font-size: 0px;
+    }
+
+ @media all and (max-width: 959px) {
+
+         .mobHide    {
+            display: none;
+            overflow: hidden;
+            visibility: hidden;
+            opacity: 0;
+            max-height: 0px;
+            line-height: 0; 
+            mso-hide: all; 
+            font-size: 0px;
+        }
+        
+        .mobOnly    {
+            display: block !important;
+            overflow: visible !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            max-height: 1000px !important;
+            line-height: normal !important; 
+            font-size: 10px !important;
+            width:auto !important;
+        }
+
+        .mobOnlyCenter    {
+            display: inline !important;
+            overflow: visible !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            max-height: 1000px !important;
+            line-height: normal !important; 
+            font-size: 10px !important;
+            align:center;
+            text-align:center;
+
+        }
+
+        .mobOnlyCenterBlock   {
+            display: block !important;
+            overflow: visible !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            max-height: 1000px !important;
+            line-height: normal !important; 
+            font-size: 10px !important;
+            align:center;
+            text-align:center;
+
+        }
+
+         table.mobOnlyCenter td a img {
+            border-collapse: collapse; 
+            text-align: center; 
+            padding:0; 
+            align:center; 
+            float:center;
+            max-width:300px !important;
+            border: none;
+        }
+
+        table.mobOnlyCenter table td a img {
+            border-collapse: collapse; 
+            text-align: center; 
+            padding:0; 
+            align:center; 
+            float:center;
+            max-width:300px !important;
+            border: none;
+
+        }
+
+        .logo td, .alignCenterMob   {text-align: center !important;}
+        .logo {
+            text-align: center !important;
+            align:center;
+            width:100%;
+        }
+
+        img.responsiveImg  {
+        align:center;
+        text-align:center;
+
+         }
+}
+
+
+    @media all and (max-width: 720px) {
+
+        body[yahoo] .responsive-container {
+            width: 100% !important;
+            max-width: 700px !important;
+        }
+
+        body[yahoo] .responsive {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        body[yahoo] .responsive-content h1 {
+            font-size: 30px !important;
+            line-height: 28px !important;
+        }
+
+        html {
+            -webkit-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+        }
+
+        body {
+            -webkit-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0;
+            mso-table-rspace: 0;
+            width:100%;
+        }
+        
+        .responsive-container   {
+            max-width: 700px !important;
+            width:100% !important;
+        }
+        
+        .logo td, .alignCenterMob   {text-align: center !important;}
+        
+        
+        
+    }
+        
+    @media all and (max-width: 700px) {
+        
+        .dt_only    {
+            display: none !important;
+            overflow: hidden;
+            font-size: 0; 
+            max-height: 0; 
+            line-height: 0; 
+            mso-hide: all; 
+        }
+        
+        .signoff_align  {
+            text-align: center;
+        }
+        
+        .height-fix {
+            height:0 !important;   
+        }
+        
+        table   {
+            width:100% !important;    
+        }
+        
+        .headDate td    {
+            padding: 10px 0 !important;
+        }
+        
+        .addSpacerBottom    {
+            margin-bottom:20px !important;   
+        }
+
+
+img {
+            max-width:100% !important;
+            height: auto !important;
+        }
+       
+        .mobPadding {
+            padding-top:10px !important;
+        }
+            
+    }
+
+    @media all and (max-width: 330px) {
+
+        body[yahoo] .responsive-content {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+
+        html {
+            -webkit-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+        }
+
+        body {
+            -webkit-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0;
+            mso-table-rspace: 0;
+        }
+
+    }
+
+    </style>
+<style>
+table.note-highlight {
+    margin-bottom: 20px !important;
+}
+
+table.note-highlight td{
+    padding: 20px !important;
+}
+
+table.note-highlight-blue tr * {
+    border-color: #bce8f1 !important;
+    color: #31708f !important;
+    background-color: #d9edf7 !important;
+}
+
+table.note-highlight-yellow tr * {
+    border-color: #fc0 !important;
+    color: #938905 !important;
+    background-color: #fbf6c2 !important;
+}
+
+table.note-highlight-grey tr * {
+    border-color: #f1f1f1 !important;
+    color: #212529 !important;
+    background-color: #E3E5E8 !important;
+}
+.date {
+    color: #e30613;
+    font-size: 14px;
+    font-weight: 600;
+}
+</style>
+</head>
+<body style="padding: 0; margin: 0 auto; min-width: 100%;">
+
+<div style="display:none; opacity:0; line-height:0px; font-size:0px; margin:0; padding:0; color:#343a40; overflow:hidden; float:left; mso-hide: all;"></div>
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; padding:0px; margin:0 auto;" width="100%" bgcolor="#343a40">
+
+        <!--Global Post Link-->
+        <tr>
+            <td style="font-size: 16px; line-height: 20px; margin:0 auto; border-collapse: collapse; text-align: center;" bgcolor="#000000">  
+
+                 <div class="mobHide">
+                    <table cellspacing="0" cellspacing="0" border="0" style="border-collapse: collapse; text-align: center;" summary=”hide” class="mobHide" width="700">
+                        <tr>
+                            <td style="margin:0px auto; font-size: 12px; margin:0 auto; color:#fff; font-family: Verdana, Arial, sans-serif; text-align: center; padding:7px 0; text-align: center;" summary=”hide” class="mobHide">
+                                Having trouble viewing this email? <a href="#" style="color:#ffffff;">Log in to view in browser</a> 
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </td>
+        </tr>
+        
+        <!--Email Header-->
+        <tr>
+            <td align="center" style="font-size: 16px; line-height: 20px; margin:0 auto; padding:0px 0;" bgcolor="#000000">
+                
+                <table align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse;word-break: break-word; margin:0 auto;" width="700">
+                    
+                    <tr>
+                    
+                        <td style="border-collapse: collapse; margin:0 auto;" valign="bottom">
+                        
+                            <table align="left" cellpadding="0" cellspacing="0" class="logo" style="border-collapse: collapse;word-break: break-word; margin:0;" width="700">
+                                <tr>
+                                    <td align="left" style="padding: 0; margin:0; border-collapse: collapse; text-align: left;">
+                                        <img src="images/banner_700x90.jpg" alt="Predictive Edge" class="responsiveImg">
+                                    </td>
+                                </tr>
+                            </table>
+
+
+
+                        
+                        </td>
+                    
+                    </tr>
+                    
+                </table>
+                
+            </td>
+        </tr>
+        
+        <!--15px Spacer-->
+        <tr>
+            <td align="center" style="font-size: 10px; line-height: 10px; margin:0 auto; color:#343a40;" height="15">.</td>
+        </tr>
+        
+        <!--Main Post Body-->
+        <tr>
+            <td align="center" style="font-size: 16px; line-height: 20px; margin:0 auto;">
+                <table align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; max-width:700px; word-break: break-word; margin:0 auto;" width="700">
+                    
+                    <tr>
+                    
+                        <td style="border-collapse: collapse; max-width:700px; word-break: break-word; margin:0 auto; border-radius:4px;" bgcolor="#ffffff" width="700">
+                        
+                            <table align="left" cellpadding="0" cellspacing="0" style="border-collapse: collapse; word-break: break-word; margin:0 auto; width:100%;">
+                            
+                                <tr>
+                                
+                                    <td style="border-collapse: collapse; margin:0 auto; padding:20px; text-align: left;" class="blueLinks">
+                                        
+                                        <h1>{{headline}}</h1>
+<br>
+                                        
+<!--start update btn / date-->
+
+<table cellpadding="0" cellspacing="0" style="border-collapse: collapse;margin:0;" width="100%">
+    
+    <tr>
+        
+        <td cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+
+            
+            <table align="left" cellpadding="0" cellspacing="0" style="border-collapse: collapse;margin:0;" width="350">
+                
+                <tr>
+                
+                    <td style="border-collapse: collapse; padding-top:0px;">
+                    
+                        <table align="left" cellpadding="0" cellspacing="0" style="border-collapse: collapse;margin:0;">
+                            
+                            <tr>
+
+                                <td cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;font-weight:600; font-size:13px; line-height:18px; color:#000;padding:0 0 0 0px; text-align: left;" >
+                                    <span class="author">{{author}}</span>
+                                </td>
+
+                            </tr>
+                        </table>
+                    
+                    </td>
+                
+                </tr>
+                
+            </table>
+            
+
+            
+
+            <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; text-align: center;" align="right" width="280" class="mobHide">
+                <tr>
+                    <td style="border-collapse: collapse; text-align: right; padding:0 0 0px 0;" class="mobPadding">
+                        {{ "now" | date: "%d %b %Y" }} 
+                    </td>
+                </tr>
+            </table>
+            
+        </td>
+        
+    </tr>
+    
+</table>
+
+<!--end--> 
+
+
+
+
+
+                                        
+                                        <hr>
+                                        
+                                        <br>
+
+<div>
+<div style="position: relative;"><span id="subhead-7" style="position: absolute; top: -130px;"><span style="display: none;">.</span></span></div>
+
+{{content}}
+
+<br><br>
+</div>
+
+<!-- add facebook, twitter and youtube links -->
+                                            <a style="width: 30px;height: 30px;" href="#"><img width="30" height="30" style="width: 30px;height: 30px;" title="follow us on facebook" src="images/social_icons/facebook-icon-trans-background-120.png" /></a>
+&nbsp;
+<a style="width: 30px;height: 30px;" href="#"><img width="30" height="30" style="width: 30px;height: 30px;" title="follow us on twitter" src="images/social_icons/twitter-icon-trans-background-120.png" /></a>
+&nbsp;
+<a style="width: 30px;height: 30px;" href="#"><img width="30" height="30" style="width: 30px;height: 30px;" title="follow us on YouTube" src="images/social_icons/youtube-icon-trans-background-120.png" /></a>
+
+                                            
+                                    </td>
+                                
+                                </tr>
+                            
+                            </table>
+                        
+                        </td>
+                    
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+        
+        
+        <!--15px Spacer-->
+        <tr>
+            <td align="center" style="font-size: 10px; line-height: 10px; margin:0 auto; color:#343a40;" height="15">.</td>
+        </tr>
+
+<!--Disclaimer-->
+<div style="background-color:#343a40;" >
+    <table align="center" style="background-color:#343a40;" bgcolor="#343a40">
+        <tr>
+            <td align="center" style="font-size: 16px; line-height: 20px; margin:0 auto;">
+                <table align="center" cellpadding="0" cellspacing="0" style="border-collapse: collapse; max-width:700px; word-break: break-word; margin:0 auto;" width="700">
+                    
+                    <tr>
+                    
+                        <td style="border-collapse: collapse; max-width:700px; word-break: break-word; margin:0 auto; border-radius:4px;" width="660">
+                        
+                            <table align="left" cellpadding="0" cellspacing="0" style="border-collapse: collapse; word-break: break-word; margin:0 auto; width:100%;">
+                            
+                                <tr>
+                                
+                                    <td style="border-collapse: collapse; margin:0 auto; padding:20px; color:#ffffff; font-size:14px; line-height:18px; text-align: left;">
+                                        
+                                        <br><br>
+                                            
+                                         {{footer}}
+                                            
+                                    </td>
+                                
+                                </tr>
+                            
+                            </table>
+                        
+                        </td>
+                    
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+        
+        
+        
+        
+        
+</table>
+</div>
+</body>
+</html>
+
